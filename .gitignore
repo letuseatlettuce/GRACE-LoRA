@@ -1,0 +1,20 @@
+# environments and caches
+.venv/
+__pycache__/
+*.pyc
+# per-machine state and outputs (never commit data, models or results)
+pipeline.json
+.pipeline/
+data/
+runs/
+models/
+experiments/
+validation*/
+reports/
+*.npz
+*.pkl.gz
+*.parquet
+*.xyz
+saved_model/
+# small, path-free test fixtures are committed on purpose
+!tests/fixtures/**

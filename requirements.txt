@@ -1,0 +1,38 @@
+# GRACE -> GRACE-OFF LoRA POC
+# Target: MacBook Pro M4 Pro (Apple Silicon), Python 3.11, pip + venv only (no conda, no uv)
+# Also installs on Linux/WSL (CUDA) for development, via the platform markers below.
+#
+# Setup:
+#   python3 pipeline.py setup-env      (creates .venv and installs everything)
+#
+# Check GPU:
+#   python -c "import tensorpotential, tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+#
+# If Metal gives errors, run on CPU instead:  pip uninstall -y tensorflow-metal
+
+# --- GRACE + GRACE-OFF (models, gracemaker trainer, grace_models CLI, ASE calculator) ---
+tensorpotential==0.6.2.1
+
+# --- TensorFlow backend ---
+# Pinned to 2.19: tensorflow-metal 1.2.0 is reported broken with TF 2.20.
+# tf-keras must match the TF minor version.
+tensorflow==2.19.1 ; sys_platform == "darwin"
+tensorflow-metal==1.2.0 ; sys_platform == "darwin"
+tensorflow[and-cuda]==2.19.1 ; sys_platform == "linux"
+tf-keras==2.19.0
+
+# --- Data handling / atomistics ---
+ase>=3.23
+numpy<3.0
+pandas<3.0
+scipy
+h5py            # reading the SPICE dataset (HDF5)
+pyarrow         # reading the MPtrj materials shards (parquet)
+rdkit           # SMILES -> 3D organic conformers
+
+# --- LoRA ---
+# Nothing to install: PEFT/loralib are PyTorch-only; the adapters are custom TensorFlow code.
+
+# --- Analysis (optional) ---
+matplotlib
+jupyterlab

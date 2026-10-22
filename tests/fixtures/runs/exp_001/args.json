@@ -1,0 +1,25 @@
+{
+  "checkpoint_dir": "<local>/checkpoints/GRACE-2L-OMAT-medium-ft-AM",
+  "data_dir": "<local>/grace_mid/data",
+  "runs_dir": "<local>/grace_mid/runs",
+  "name": "lora_r8_e10",
+  "mode": "lora",
+  "targets": [
+    "I1/reducing_",
+    "I2/reducing_",
+    "rho/reducing_"
+  ],
+  "rank": 8,
+  "alpha": 16.0,
+  "no_train_shift": false,
+  "epochs": 10,
+  "batch_size": 8,
+  "lr": 0.002,
+  "energy_weight": 1.0,
+  "forces_weight": 10.0,
+  "n_shift_structures": 200,
+  "max_buckets": 4,
+  "jit": true,
+  "gpu": false,
+  "seed": 42
+}

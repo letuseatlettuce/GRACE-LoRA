@@ -1,0 +1,50 @@
+{
+  "format": "grace-lora-adapter/1",
+  "base_checkpoint_dir": "<local>/checkpoints/GRACE-2L-OMAT-medium-ft-AM",
+  "base_model": "GRACE-2L-OMAT-medium-ft-AM",
+  "weights_file": "best_trainable_state.npz",
+  "rank": 8,
+  "alpha": 16.0,
+  "targets": [
+    "I1/reducing_A",
+    "I1/reducing_AA",
+    "I1/reducing_AAA",
+    "I1/reducing_AAAA",
+    "I2/reducing_B",
+    "I2/reducing_BB",
+    "I2/reducing_BBB",
+    "I2/reducing_BBBB",
+    "rho/reducing_A",
+    "rho/reducing_AA",
+    "rho/reducing_AAA",
+    "rho/reducing_AAAA"
+  ],
+  "elements": [
+    "Br",
+    "C",
+    "Cl",
+    "F",
+    "H",
+    "I",
+    "N",
+    "O",
+    "P",
+    "S"
+  ],
+  "element_rows": [
+    10,
+    11,
+    15,
+    23,
+    28,
+    33,
+    44,
+    51,
+    53,
+    65
+  ],
+  "energy_shifts": {},
+  "shift_variables": [],
+  "trainable_params": 1356320,
+  "size_bytes": 5431774
+}

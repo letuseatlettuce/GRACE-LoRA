@@ -1,0 +1,13 @@
+{
+  "mode": "lora",
+  "rank": 8,
+  "alpha": 16.0,
+  "trainable_params": 1356320,
+  "total_params": 21111690,
+  "val_before": {
+    "e_mae_meV_atom": 10.115054957190182,
+    "f_mae_meV_A": 229.2375014680953
+  },
+  "val_best_f_mae_meV_A": 90.64061156688643,
+  "train_time_s": 1956.8305581519962
+}

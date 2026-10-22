@@ -1,0 +1,43 @@
+{
+  "checkpoint_dir": "<local>/checkpoints/GRACE-2L-OMAT-medium-ft-AM",
+  "data_dir": "<local>/grace_v2/data",
+  "runs_dir": "<local>/grace_v2/runs",
+  "name": "replay_v2_r8",
+  "mode": "lora",
+  "targets": [
+    "I1/reducing_",
+    "I2/reducing_",
+    "rho/reducing_"
+  ],
+  "rank": 8,
+  "alpha": 16.0,
+  "no_train_shift": true,
+  "epochs": 10,
+  "batch_size": 8,
+  "lr": 0.002,
+  "energy_weight": 1.0,
+  "forces_weight": 10.0,
+  "adapt_elements": [
+    "Br",
+    "C",
+    "Cl",
+    "F",
+    "H",
+    "I",
+    "N",
+    "O",
+    "P",
+    "S"
+  ],
+  "no_energy_shift": true,
+  "monitor": [
+    "organic=<local>/data/monitor_organic.pkl.gz",
+    "materials=<local>/data/monitor_materials.pkl.gz",
+    "only_adapted=<local>/data/monitor_only_adapted.pkl.gz"
+  ],
+  "n_shift_structures": 200,
+  "max_buckets": 4,
+  "jit": true,
+  "gpu": false,
+  "seed": 42
+}
