@@ -249,12 +249,8 @@ docs/                           design notes and workflow charts
   - MPtrj (Materials Project trajectories; Hugging Face copy `nimashoghi/mptrj`): CC-BY 4.0.
 
 ## Acknowledgements and citations
-- Y. Lysogorskiy, A. Bochkarev, R. Drautz, *Graph atomic cluster expansion for foundational
-  machine learning interatomic potentials*, npj Comput. Mater. (2026); arXiv:2508.17936.
-- *GRACE-OFF: A Machine-Learned Interatomic Potential for Organic Liquids Using the GRACE
-  Architecture*, J. Chem. Theory Comput. (2026), doi:10.1021/acs.jctc.6c01169.
-- P. Eastman et al., *SPICE, a dataset of drug-like molecules and peptides for training machine
-  learning potentials*, Sci. Data (2023).
-- B. Deng et al., *CHGNet as a pretrained universal neural network potential for charge-informed
-  atomistic modelling* (MPtrj dataset), Nat. Mach. Intell. (2023).
-- E. J. Hu et al., *LoRA: Low-Rank Adaptation of Large Language Models*, arXiv:2106.09685 (2021).
+- Lysogorskiy, Y., Bochkarev, A. & Drautz, R. Graph atomic cluster expansion for foundational machine learning interatomic potentials. npj Comput Mater 12, 114 (2026). https://doi.org/10.1038/s41524-026-01979-1
+- Anna Katharina Picha, Johannes Karwounopoulos, Linus C. Erhard, Stefan Boresch, Esther Heid; GRACE-OFF: A Machine-Learned Interatomic Potential for Organic Liquids Using the GRACE Architecture. J. Chem. Theory Comput. 22 September 2026; 22 (18): 9274–9289. https://doi.org/10.1021/acs.jctc.6c01169
+- Eastman, P., Behara, P.K., Dotson, D.L. et al. SPICE, A Dataset of Drug-like Molecules and Peptides for Training Machine Learning Potentials. Sci Data 10, 11 (2023). https://doi.org/10.1038/s41597-022-01882-6
+- Deng, B., Zhong, P., Jun, K. et al. CHGNet as a pretrained universal neural network potential for charge-informed atomistic modelling. Nat Mach Intell 5, 1031–1041 (2023). https://doi.org/10.1038/s42256-023-00716-3
+- Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, & Weizhu Chen. (2021). LoRA: Low-Rank Adaptation of Large Language Models..
