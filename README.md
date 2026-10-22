@@ -235,8 +235,9 @@ docs/                           design notes and workflow charts
 ```
 
 ## Authors
-Varun Nair, Negar Erfanian and Sahith Battula. To cite this repository, use GitHub's
-"Cite this repository" button (from `CITATION.cff`).
+- Varun Nair
+- Negar Erfanian
+- Sahith Battula
 
 ## Licences
 - **This repository:** MIT (see `LICENSE`).
