@@ -7,9 +7,7 @@ inorganic materials. The workflow is packaged as a **Claude Code skill**: an age
 machine, checks feasibility, runs an autonomous experiment loop, validates and writes a report.
 
 
-
-https://github.com/user-attachments/assets/d3813e55-6339-4ddb-847b-8d61b4d0b896
-
+https://github.com/user-attachments/assets/bd952034-eed4-4b4f-b0b5-b3dbd648cfc8
 
 
 ## Why?
