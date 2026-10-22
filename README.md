@@ -27,7 +27,7 @@ This project specialises the foundation model cheaply, using labels that already
 model, or DFT data), and avoids forgetting through **replay**: DFT materials data mixed into
 training. The adapter is 5 MB; the base model stays untouched.
 
-## Results (proof of concept)
+## Results: (Proof of Concept)
 Laptop: Intel i7-13650HX, WSL2, 11.7 GB RAM, CPU only. Force MAE vs DFT in meV/Å; lower is better.
 The adapter trains only the 10 **organic elements** (H C N O F P S Cl Br I, the elements
 GRACE-OFF covers). The columns are:
