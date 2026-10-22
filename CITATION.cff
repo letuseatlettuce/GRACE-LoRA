@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "GRACE-LoRA: specialise GRACE on a laptop with LoRA adapters, as an agent skill"
+abstract: >-
+  Adapts the GRACE foundation interatomic potential to organic molecules by training small
+  per-element LoRA adapters on labels from the GRACE-OFF specialist, with DFT materials mixed in
+  so accuracy on inorganic materials is kept. Runs on a laptop CPU; packaged as an agent skill
+  that runs, validates and documents the optimisation loop.
+authors:
+  - given-names: Varun
+    family-names: Nair
+  - given-names: Negar
+    family-names: Erfanian
+  - given-names: Sahith
+    family-names: Battula
+repository-code: "https://github.com/letuseatlettuce/GRACE-LoRA"
+license: MIT
+date-released: "2026-10-23"
+keywords:
+  - machine-learned interatomic potentials
+  - GRACE
+  - LoRA
+  - fine-tuning
+  - organic molecules
+  - agents

@@ -234,6 +234,10 @@ tests/                          unit and end-to-end tests; tests/fixtures/ holds
 docs/                           design notes and workflow charts
 ```
 
+## Authors
+Varun Nair, Negar Erfanian and Sahith Battula. To cite this repository, use GitHub's
+"Cite this repository" button (from `CITATION.cff`).
+
 ## Licences
 - **This repository:** MIT (see `LICENSE`).
 - **No full datasets or model weights are included** (only small extracts under `tests/fixtures/`
